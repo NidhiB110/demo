@@ -11,7 +11,10 @@ public class MyhelloSbApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MyhelloSbApplication.class, args);
 		
-		
+		String s="Nidddhi";
+		StringBuffer sb=new StrinBuffer(s);
+		sb.reverse();
+		System.out.println("string reverse" +sb);
 	}
 
 }
